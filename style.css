@@ -214,10 +214,14 @@ section {
 .profile-img {
     width: 400px;
     height: 400px;
-    margin: auto 0;
-    border-radius: 100%;
+    border-radius: 50%;
+    background: #c6adeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 .profile-img:hover {
     transform: scale(1.05);
@@ -627,3 +631,63 @@ footer .box3 {
     color: white;
 }
 /* copyright end */
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 6%;
+    border-radius: 10px;
+}
+
+.experience-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.experience {
+    background-color: #ffffff;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    flex: 1 1 calc(45% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+
+.experience h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: #343a40;
+}
+
+.experience p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.experience .duration {
+    font-weight: bold;
+    color: #8f65cf;
+}
+
+/* Background color for the area within <ul> tags */
+.experience ul {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Improve responsiveness for smaller screens */
+@media screen and (max-width: 768px) {
+    .experience {
+        flex: 1 1 100%;
+    }
+}
