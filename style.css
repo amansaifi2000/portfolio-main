@@ -419,7 +419,17 @@ section {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0.3, 0.3) 0.5px 0.5px 0.5px 0.5px;
 }
+@media screen and (min-width: 768px) {
+    .project-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
 
+    .project {
+        flex: 1 1 calc(30% - 20px);
+    }
+}
 .project:hover {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
