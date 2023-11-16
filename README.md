@@ -44,25 +44,23 @@ Doon Group of Institutions, Rishikesh
 
 <h3>Projects</h3>
 
-<h6>Project 1: Paryatak</h6>
-<pre>Description: Paryatak is a travel website which provides information about the places to visit in Uttarakhand. It also
-provides information about the hotels and restaurants in Uttarakhand.
+<h6>Project 1: Gaura</h6>
+<pre>Description: Gaura is a Payment website which allows you to do Recharges | Bill Payments | Prepaid Cards | Ticket Booking etc.
 </pre>
-link: https://paryatak.vercel.app
+link: https://gaura-payment.netlify.app/
 
 
 <h6>Project 2: Portfolio</h6>
 <pre>Description: Portfolio is a personal website which provides information about the person. It also provides information
 about the skills and projects of the person.
 </pre>
-link: https://Amanbedwal9.github.io/portfolio
+link: https://amansportfolioupdated.netlify.app/
 
 
-<h6>Project 3: Todo List App</h6>
-<pre>Description: Todo App is a web application used to manage tasks. It also provides information about the
-tasks which are completed and which are not completed.
+<h6>Project 3: Makeup Lover Website</h6>
+<pre>Description: Passionate makeup enthusiast and skilled professional artist sharing expertise online. Embracing the digital realm to showcase the artistry, creativity, and beauty skills to a wider audience.
 </pre>
-link: https://todos-list-woad.vercel.app
+link: https://makeup-lover-master.vercel.app/
 
 
 <h3>Contact</h3>
